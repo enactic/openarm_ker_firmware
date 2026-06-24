@@ -16,7 +16,7 @@
 
 set -eu
 
-if [ $# -ne 1 ]; then
+if [ $# -ne 0 ]; then
   echo "Usage: $0"
   echo " e.g.: $0"
   exit 0
